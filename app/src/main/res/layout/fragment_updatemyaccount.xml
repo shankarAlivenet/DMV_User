@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundtwo"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maintoolbar">
+
+        <LinearLayout
+            android:id="@+id/llver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="MY ACCOUNT"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp" />
+
+
+            <EditText
+                android:id="@+id/edt_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/account_bg1"
+                android:hint="First Name"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/textcolor"
+                android:textColorHint="@color/textcolor"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/edt_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/account_bg1"
+                android:hint="Last Name "
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/textcolor"
+                android:textColorHint="@color/textcolor"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/account_bg1"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="Email"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/textcolor"
+                android:textColorHint="@color/textcolor"
+                android:textSize="14sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!--  <Spinner
+
+                      android:id="@+id/strip_countrycode"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginRight="4dp"
+                      android:layout_weight="1.5"
+                      android:background="@mipmap/account_bg1"
+                      android:padding="10dp"
+                      android:textColor="@color/textcolor"
+                      android:textSize="@dimen/edittextsize" />-->
+
+                <EditText
+
+                    android:id="@+id/strip_countrycode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1.5"
+                    android:background="@mipmap/account_bg1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="CODE"
+                    android:inputType="number"
+                    android:maxLength="12"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/textcolor"
+                    android:textColorHint="@color/textcolor"
+                    android:textSize="@dimen/edittextsize" />
+
+
+                <EditText
+                    android:id="@+id/edt_cellno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight=".5"
+                    android:background="@mipmap/account_bg1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="CELL NUMBER"
+                    android:inputType="number"
+                    android:maxLength="12"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/textcolor"
+                    android:textColorHint="@color/textcolor"
+                    android:textSize="@dimen/edittextsize" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edt_creditcardinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/account_bg1"
+                android:focusable="false"
+                android:hint="CREDIT CARD INFO"
+                android:padding="10dp"
+                android:textColor="@color/textcolor"
+                android:textColorHint="@color/textcolor"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="bottom"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/btn_save_myaccount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@mipmap/btnfive"
+            android:text="SAVE"
+            android:textColor="@color/textcolor" />
+    </LinearLayout>
+
+
+</LinearLayout>

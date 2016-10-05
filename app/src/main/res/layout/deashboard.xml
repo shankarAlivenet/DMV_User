@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundtwo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/maintoolbar"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+        <fragment
+            android:id="@+id/mapdirection"
+            class="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"   />
+
+        <RelativeLayout
+            android:id="@+id/piclocation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1">
+
+            <RelativeLayout
+                android:id="@+id/rl_fulldetails"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <FrameLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="#313030"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:paddingBottom="-50dp">
+
+
+                        <TextView
+                            android:id="@+id/tv_textarrival"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="ESTIMATED ARRIVAL TIME IN 12 MINUTES"
+                            android:textColor="#999999"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <ImageView
+                                android:id="@+id/imageView_close"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="top|right"
+                                android:clickable="true"
+                                android:src="@mipmap/avtar" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:weightSum="2">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:background="#000000"
+                                        android:gravity="center|left"
+                                        android:paddingBottom="10dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingTop="10dp"
+                                        android:text="NAME"
+                                        android:textColor="@color/White"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:id="@+id/tv_name"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:background="#000000"
+                                        android:gravity="center|left"
+                                        android:paddingBottom="10dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingTop="10dp"
+                                        android:singleLine="true"
+                                        android:text="Jon smith"
+                                        android:textColor="@color/White"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:weightSum="2">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:background="#000000"
+                                        android:gravity="center|left"
+                                        android:paddingBottom="10dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingTop="10dp"
+                                        android:text="LICENCE PLATE"
+                                        android:textColor="@color/White"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:id="@+id/tv_licence"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:background="#000000"
+                                        android:gravity="center|left"
+                                        android:paddingBottom="10dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingTop="10dp"
+                                        android:singleLine="true"
+                                        android:text="3987378"
+                                        android:textColor="@color/White"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:weightSum="2">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:background="#000000"
+                                        android:gravity="center|left"
+                                        android:paddingBottom="10dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingTop="10dp"
+                                        android:text="TAXI MODEL"
+                                        android:textColor="@color/White"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:id="@+id/tv_model"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:background="#000000"
+                                        android:gravity="center|left"
+                                        android:paddingBottom="10dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingTop="10dp"
+                                        android:singleLine="true"
+                                        android:text="TOYOTA COROLA"
+                                        android:textColor="@color/White"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="85dp" />
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/pick_up_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@mipmap/text_filed"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:id="@+id/tv_pickuplocation"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|start"
+                            android:layout_weight=".4"
+                            android:drawableLeft="@mipmap/search_icon"
+                            android:drawablePadding="10dp"
+                            android:gravity="center|start"
+                            android:padding="5dp"
+                            android:paddingLeft="10dp"
+                            android:singleLine="true"
+                            android:text="PICKUP LOCATION"
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_weight="1.6"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+
+                            <ImageView
+                                android:id="@+id/img_location"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:layout_toLeftOf="@+id/img_star"
+                                android:layout_weight="1"
+                                android:padding="10dp"
+                                android:src="@mipmap/location_icon" />
+
+
+                            <ImageView
+                                android:id="@+id/img_star"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:padding="10dp"
+                                android:src="@mipmap/star_icon" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/destination_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@mipmap/text_filed"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <!--  <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight=".5"
+                              android:gravity="center"
+                              android:orientation="horizontal"
+                              android:weightSum="2">-->
+
+                        <!-- <ImageView
+                             android:id="@+id/img_searchdes"
+                             android:layout_width="40dp"
+                             android:layout_height="40dp"
+                             android:layout_centerVertical="true"
+                             android:layout_weight=".3"
+                             android:padding="10dp"
+                             android:src="@mipmap/search_icon" />-->
+
+                        <TextView
+                            android:id="@+id/tv_destnation"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/img_searchdes"
+                            android:layout_weight=".4"
+                            android:drawableLeft="@mipmap/search_icon"
+                            android:drawablePadding="10dp"
+                            android:gravity="center|start"
+                            android:padding="5dp"
+                            android:singleLine="true"
+                            android:text="DESTINATION"
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp" />
+                        <!-- </LinearLayout>
+ -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_weight="1.6"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+
+                            <ImageView
+                                android:id="@+id/img_locat"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:layout_toLeftOf="@+id/img_star"
+                                android:layout_weight="1"
+                                android:padding="10dp"
+                                android:src="@mipmap/location_icon"
+                                android:visibility="invisible" />
+
+                            <ImageView
+                                android:id="@+id/img_stares"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:padding="10dp"
+                                android:src="@mipmap/star_icon" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/panel_bg2"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:id="@+id/btnpay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/method_pay"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+
+                            <Button
+                                android:id="@+id/btn_payments"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@mipmap/btn2"
+                                android:hint="paypal"
+                                android:paddingBottom="10dp"
+                                android:textColorHint="@android:color/black"
+                                android:textStyle="italic|bold" />
+
+                            <Button
+                                android:id="@+id/btn_credit"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@mipmap/btn2"
+                                android:drawableLeft="@mipmap/credit_card_icon"
+                                android:hint="CREDIT CARD"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:textColorHint="@android:color/black"
+                                android:textSize="12sp"
+                                android:textStyle="italic|bold" />
+
+                            <Button
+                                android:id="@+id/btn_vip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@mipmap/btn2"
+                                android:drawableLeft="@mipmap/dallor_icon"
+                                android:hint="VIP"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:textColorHint="@android:color/black"
+                                android:textStyle="italic|bold" />
+
+                            <Button
+                                android:id="@+id/btn_split"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@mipmap/btn2"
+                                android:hint="SPLIT"
+                                android:paddingBottom="10dp"
+                                android:textColorHint="@android:color/black"
+                                android:textStyle="italic|bold"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0.2dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/background_dark" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+
+                            <Button
+                                android:id="@+id/btn_car"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_weight="1"
+                                android:background="@mipmap/car_btn1" />
+
+
+                            <Button
+                                android:id="@+id/btn_van"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_weight="1"
+                                android:background="@mipmap/van_btn1" />
+
+
+                            <Button
+                                android:id="@+id/btn_handicapt"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_weight="1"
+                                android:background="@mipmap/wheel_btn1"
+                                android:orientation="vertical" />
+
+
+                        </LinearLayout>
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/hrlist_recycler_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scrollbars="horizontal"
+                            android:visibility="gone" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+
+                        <Spinner
+                            android:id="@+id/passenger_user"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/btn7"
+                            android:drawableRight="@mipmap/arrow_icon"
+                            android:gravity="center|start"
+                            android:padding="10dp"
+                            android:textColor="@android:color/white"
+                            android:textSize="8sp" />
+
+                        <Button
+                            android:id="@+id/btn_picup"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/btnfive"
+                            android:gravity="center"
+                            android:hint="PICK ME UP"
+                            android:textColorHint="@color/textcolor"
+                            android:textSize="12sp"></Button>
+
+
+                        <Button
+                            android:id="@+id/btn_reservations"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/btnreservation"
+                            android:gravity="center|start"
+                            android:hint="RESERVATION"
+                            android:paddingLeft="5dp"
+                            android:textColorHint="@color/textcolor"
+                            android:textSize="10sp"></Button>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

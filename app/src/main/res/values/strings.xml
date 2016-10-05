@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">DMV</string>
+
+    <!--<string name="google_api_key">AIzaSyCtq5SwvSQttX98hA-OtmU21yVBxYLGxQw</string>-->
+    <!--<string name="google_api_key">AIzaSyBkVVTqhqY8POSis-wq3Wqb_v-AbUjVWTs</string>-->
+    <!--  <string name="google_api_key">AIzaSyAWoZM5JpjiQNbRoerxHpETnn0o407XU0Q</string>-->
+    <!--<string name="google_api">AIzaSyAey4R7JFn4-Ls2n3SwXx1XhmJsc20s178</string>-->
+    <string name="google_api">AIzaSyB2uH1ND88lvcp8JI91FKx7n8dq7TWDnwA</string>
+
+    <!--///////////////nav_menu string////////////////////////-->
+    <string name="pick_up">PICK ME UP</string>
+    <string name="reservation">RESERVATION</string>
+    <string name="ridelist">RIDES</string>
+    <string name="payment">PAYMENT</string>
+    <string name="feedback">RATE YOUR RIDE</string>
+    <string name="location">LOCATIONS</string>
+    <string name="my_account">MY ACCOUNT</string>
+    <string name="arrived_driver">ARRIVE DRIVER</string>
+    <string name="log_out">LOG OUT</string>
+    <!--/////////////////////////////////////////////////////// -->
+
+    <string name="myaccount">My Account</string>
+    <string name="createaccount">CREATE ACCOUNT</string>
+    <string name="createaccount_vip">CREATE VIP ACCOUNT</string>
+    <string name="accaddvantage">THE VIP ACCOUNT OFFERS THE FOLLOWING ADVANTAGES</string>
+    <string name="advantage_vipaccont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</string>
+    <string name="personalinfo">PERSONAL INFORMATION</string>
+    <string name="REG">REGISTRATION</string>
+
+    <string name="verification">VERIFICATION</string>
+    <string name="TERM">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    \n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    \n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    \n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_my_account_personal_info">MyAccountPersonalInfoActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="create_account"><u>Create an Account</u></string>
+    <string name="title_activity_maps">Map</string>
+    <string name="gcm_defaultSenderId">Map</string>
+    <string name="forgotpassword">Forgot Password </string>
+
+    <string name="networkError_Message">Network connection appears to be disconnected, please check your internet connection.</string>
+    <string name="connection_error">Unable to connect to the server, please try again later.</string>
+    <string name="please_wait">Please wait &#8230;</string>
+    <string name="connection_timeout">"Connection timeout !"</string>
+    <string name="Alert_Timeout_Msg">Connection timed out, please try again.</string>
+    <string name="Network_Connection_Error_Msg">Your internet connection appears to be offline. Please check your internet connection and try again.</string>
+    <string name="Alert_Unknown_Msg">Unknown host – please try again.</string>
+
+    <string name="titleTecnologies">Invite Friends</string>
+    <string name="btnRemove">Remove</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnDisplay">Submit</string>
+
+</resources>

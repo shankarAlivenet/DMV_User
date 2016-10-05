@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="12dp"
+    android:background="@mipmap/panel_bg1"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp">
+
+    <LinearLayout
+        android:id="@+id/llImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/ivnoimage"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="left"
+            android:padding="5dp"
+            android:src="@mipmap/car_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/llImage"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/llImage"
+            android:layout_weight="1.3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="2dp"
+                android:text="FROM:WHITE HOUSE"
+                android:textColor="@color/textcolor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="2dp"
+                android:text="CELL:405-555-333"
+                android:textColor="@color/textcolor" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="2dp"
+                android:text="FROM:WHITE HOUSE"
+                android:textColor="@color/textcolor" />
+
+
+            <TextView
+                android:id="@+id/tvquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="2dp"
+                android:text="TO:DALLAS AIRPORT"
+                android:textColor="@color/textcolor" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight=".7"
+            android:background="@mipmap/smallbutton"
+            android:text="PICK"
+            android:textColor="@color/textcolor"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

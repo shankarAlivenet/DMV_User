@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundtwo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="FREQUENT lOCATIONS"
+                android:textColor="@color/textcolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/account1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/account"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/account_buttonper"
+                android:gravity="center"
+                android:text="PRESET lOCATIONS"
+                android:textColor="@color/textcolor"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:padding="5dp">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_presertLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical" />
+            </RelativeLayout>
+
+
+            <!-- <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:background="@mipmap/red_bg"
+                 android:orientation="horizontal">-->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/red_bg"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="ADD DROP OFF LOCATIONS"
+                android:textColor="@color/textcolor" />
+
+            <!-- <ImageView
+                 android:layout_width="30dp"
+                 android:layout_height="30dp"
+                 android:layout_alignParentRight="true"
+                 android:layout_centerVertical="true"
+                 android:layout_marginRight="20dp"
+                 android:src="@mipmap/plus_icon" />-->
+            <!-- </RelativeLayout>-->
+
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:padding="5dp"
+                >
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_dropLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical" />
+            </RelativeLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txt_home_drop"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="0.4"
+                    android:background="@mipmap/dark_bg"
+                    android:gravity="center"
+                    android:text="Home"
+                    android:textColor="@color/textcolor"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1.6"
+                    android:background="@mipmap/light_bg"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/edit_home_drop"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.9"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:text="ADD ADDRESS"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12dp" />
+
+
+                    <ImageView
+                        android:id="@+id/drop_addhome_address"
+                        android:layout_width="15dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight=".1"
+                        android:background="@drawable/round_shape_two"
+                        android:padding="4dp"
+                        android:src="@mipmap/plus_icon" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txt_office_drop"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="0.4"
+                    android:background="@mipmap/dark_bg"
+                    android:gravity="center"
+                    android:text="Office "
+                    android:textColor="@color/textcolor"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1.6"
+                    android:background="@mipmap/light_bg"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/edit_office_drop"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.9"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:text="ADD ADDRESS"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:id="@+id/drop_addoffice_address"
+                        android:layout_width="15dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight=".1"
+                        android:background="@drawable/round_shape_two"
+                        android:padding="4dp"
+                        android:src="@mipmap/plus_icon" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txt_other_drop"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="0.4"
+                    android:background="@mipmap/dark_bg"
+                    android:gravity="center"
+                    android:text="Others "
+                    android:textColor="@color/textcolor"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1.6"
+                    android:background="@mipmap/light_bg"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/edit_other_drop"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.9"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:text="ADD ADDRESS"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:id="@+id/drop_addother_address"
+                        android:layout_width="15dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight=".1"
+                        android:background="@drawable/round_shape_two"
+                        android:padding="4dp"
+                        android:src="@mipmap/plus_icon" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!-- <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:background="@mipmap/red_bg"
+                 android:orientation="horizontal">-->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/red_bg"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="ADD PICK UP LOCATIONS"
+                android:textColor="@color/textcolor" />
+
+            <!--   <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginRight="20dp"
+                   android:src="@mipmap/plus_icon" />-->
+            <!-- </RelativeLayout>
+ -->
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:padding="5dp"
+                >
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_pickupLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical" />
+            </RelativeLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txt_home_pickup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="0.4"
+                    android:background="@mipmap/dark_bg"
+                    android:gravity="center"
+                    android:text="Home"
+                    android:textColor="@color/textcolor"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1.6"
+                    android:background="@mipmap/light_bg"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/edit_home_pickup"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_weight="1.9"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:text="ADD ADDRESS"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:id="@+id/pickup_addhome_address"
+                        android:layout_width="15dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight=".1"
+                        android:background="@drawable/round_shape_two"
+                        android:padding="4dp"
+                        android:src="@mipmap/plus_icon" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txt_office_pickup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="0.4"
+                    android:background="@mipmap/dark_bg"
+                    android:gravity="center"
+                    android:text="Office "
+                    android:textColor="@color/textcolor"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1.6"
+                    android:background="@mipmap/light_bg"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/edit_office_pickup"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_weight="1.9"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:text="ADD ADDRESS"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:id="@+id/pickup_addoffice_address"
+                        android:layout_width="15dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight=".1"
+                        android:background="@drawable/round_shape_two"
+                        android:padding="4dp"
+                        android:src="@mipmap/plus_icon" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txt_other_pickup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="0.4"
+                    android:background="@mipmap/dark_bg"
+                    android:gravity="center"
+                    android:text="Others "
+                    android:textColor="@color/textcolor"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1.6"
+                    android:background="@mipmap/light_bg"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:id="@+id/edit_other_pickup"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_weight="1.9"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:text="ADD ADDRESS"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:id="@+id/pickup_addother_address"
+                        android:layout_width="15dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight=".1"
+                        android:background="@drawable/round_shape_two"
+                        android:padding="4dp"
+                        android:src="@mipmap/plus_icon" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_puckupres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@mipmap/btnfive"
+                android:gravity="center"
+                android:text="SAVE"
+                android:textColor="@color/textcolor"
+                android:visibility="gone"></Button>
+            />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

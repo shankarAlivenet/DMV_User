@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundtwo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/maintoolbar">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:id="@+id/llver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/myaccount"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:id="@+id/llhor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/account"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_crateaccount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@mipmap/account_buttonper"
+                    android:hint="@string/personalinfo"
+                    android:textColorHint="@color/textcolor"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btnvip_createaccount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@mipmap/account_buttonreg"
+                    android:hint="@string/REG"
+                    android:textColorHint="@color/textcolor"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/edt_firname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/account_bg1"
+                android:hint="FIRST NAME"
+                android:padding="10dp"
+                android:textColor="@color/textcolor"
+                android:textColorHint="@color/textcolor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/edt_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/account_bg1"
+                android:hint="LAST NAME"
+                android:padding="10dp"
+                android:textColor="@color/textcolor"
+                android:textColorHint="@color/textcolor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/account_bg1"
+                android:hint="EMAIL ADDRESS"
+                android:padding="10dp"
+                android:textColor="@color/textcolor"
+                android:textColorHint="@color/textcolor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/edt_PASS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/account_bg1"
+                android:hint="PASSWORD"
+                android:padding="10dp"
+                android:textColor="@color/textcolor"
+                android:textColorHint="@color/textcolor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/edt_cellno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/account_bg1"
+                android:hint="CELL NUMBER"
+                android:padding="10dp"
+                android:textColor="@color/textcolor"
+                android:textColorHint="@color/textcolor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/edt_creditcardinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/account_bg1"
+                android:hint="CREDIT CARD INFO"
+                android:padding="10dp"
+                android:textColor="@color/textcolor"
+                android:textColorHint="@color/textcolor"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_joinvip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:background="@mipmap/account_buttonper"
+                android:hint="JOIN VIP PROGRAM"
+                android:textColorHint="@color/textcolor"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:id="@+id/btn_receivenews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@mipmap/account_buttonreg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:text="RECEIVE NEWS LETTERS"
+                    android:textColor="@color/textcolor"
+                    android:textSize="12sp" />
+
+                <CheckBox
+                    android:layout_marginRight="10dp"
+                    android:button="@drawable/custome_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@mipmap/btnfive"
+                android:text="NEXT"
+                android:textColor="@color/textcolor" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:paddingLeft="-48dp"
+        android:paddingStart="-48dp"
+        android:src="@mipmap/logo" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_switch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+
+        />
+
+    <!-- <RelativeLayout
+         android:layout_below="@+id/toolbar"
+         android:id="@+id/main_content"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/bottonbuttons"/>-->
+
+
+
+
+
+</RelativeLayout>

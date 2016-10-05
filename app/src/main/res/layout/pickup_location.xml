@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_weight="0.5"
+            android:background="@mipmap/dark_bg"
+            android:gravity="center"
+            android:text="LIST ITEM"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/txt_pickup_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1.5"
+            android:background="@mipmap/light_bg"
+            android:padding="10dp"
+            android:text="ITEM ADDRESS"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:id="@+id/pickup_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

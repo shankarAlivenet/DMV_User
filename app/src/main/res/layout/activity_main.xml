@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundtwo">
+
+    <include
+        android:id="@+id/maintoolbar"
+        layout="@layout/main_toolbar"
+        android:visibility="visible"></include>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maintoolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/maintoolbar"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_pickup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@mipmap/button_bg"
+                    android:drawableLeft="@mipmap/taxi_icon"
+                    android:drawablePadding="20dp"
+                    android:gravity="center|start"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="PICK UP"
+                    android:textColor="@color/textcolor"
+                    android:textSize="18dp" />
+
+
+                <Button
+                    android:id="@+id/btn_reservation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@mipmap/button_bg"
+                    android:drawableLeft="@mipmap/clendr_circle"
+                    android:drawablePadding="20dp"
+                    android:gravity="center|start"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="RESERVATION "
+                    android:textColor="@color/textcolor"
+                    android:textSize="18dp" />
+
+
+                <Button
+                    android:id="@+id/btn_payments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@mipmap/button_bg"
+                    android:drawableLeft="@mipmap/payment_circle"
+                    android:drawablePadding="20dp"
+                    android:gravity="center|start"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="PAYMENTS "
+                    android:textColor="@color/textcolor"
+                    android:textSize="18dp" />
+
+
+                <Button
+                    android:id="@+id/btn_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@mipmap/button_bg"
+                    android:drawableLeft="@mipmap/crificate_icon"
+                    android:drawablePadding="20dp"
+                    android:gravity="center|start"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="FEEDBACK "
+                    android:textColor="@color/textcolor"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/btn_locations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@mipmap/button_bg"
+                    android:drawableLeft="@mipmap/locate_circle"
+                    android:drawablePadding="20dp"
+                    android:gravity="center|start"
+                    android:paddingLeft="10dp"
+                    android:text="LOCATIONS "
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/textcolor"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/btn_myaccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@mipmap/button_bg"
+                    android:drawableLeft="@mipmap/name_card_circle"
+                    android:drawablePadding="20dp"
+                    android:gravity="center|start"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="MY ACCOUNT  "
+                    android:textColor="@color/textcolor"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@mipmap/button_bg"
+                    android:drawableLeft="@mipmap/cricel1"
+                    android:drawablePadding="20dp"
+                    android:gravity="center|start"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="LOG OUT"
+                    android:textColor="@color/textcolor"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

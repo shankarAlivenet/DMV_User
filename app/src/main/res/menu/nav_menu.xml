@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/nav_pickup"
+            android:checked="false"
+            android:icon="@mipmap/taxi_icon"
+            android:title="@string/pick_up"
+            />
+
+        <item
+            android:id="@+id/ride_list"
+            android:icon="@mipmap/circel_ride1"
+            android:title="@string/ridelist" />
+        <item
+            android:id="@+id/nav_reservation"
+            android:icon="@mipmap/clendr_circle"
+            android:title="@string/reservation" />
+
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@mipmap/payment_circle"
+            android:title="@string/payment" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@mipmap/crificate_icon"
+            android:title="@string/feedback" />
+
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@mipmap/locate_circle"
+            android:title="@string/location" />
+
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@mipmap/circel_account1"
+            android:title="@string/my_account" />
+
+       <item
+            android:id="@+id/nav_arrive_driver"
+            android:icon="@mipmap/taxi_icon"
+            android:visible="false"
+            android:title="@string/arrived_driver" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/logout_circle"
+            android:title="@string/log_out" />
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundtwo">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:theme="@style/GalaxyZooThemeToolbarDarkOverflow">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="-48dp"
+            android:paddingStart="-48dp"
+            android:src="@mipmap/logo" />
+        />
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main_toolbar"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtpaymetn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="ADD A PAYMENT:"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20dp" />
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CARD NUMBER:"
+                    android:textColor="@color/textcolor"
+                    android:textSize="15dp" />
+
+                <!--     <EditText
+                         android:maxLength="16"
+                         android:id="@+id/et_upcardnumber"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="10dp"
+                         android:background="@mipmap/text_filed"
+                         android:inputType="number"
+                         android:paddingBottom="10dp"
+                         android:paddingLeft="10dp"
+                         android:paddingRight="5dp"
+                         android:singleLine="true"
+                         android:textColor="@color/textcolor"
+                         android:textColorHint="@color/textcolor" />-->
+                <EditText
+                    android:id="@+id/cardNumberEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="-0.25dp"
+                    android:background="@mipmap/text_filed"
+                    android:focusableInTouchMode="true"
+                    android:hint="Card number"
+                    android:inputType="phone"
+                    android:padding="16dp"
+                    android:textColor="@color/textcolor"
+                    android:textColorHint="@color/textcolor"
+                    android:textSize="14sp"
+                    tools:ignore="LabelFor,NegativeMargin" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXP. MONTH"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXP. YEAR"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Spinner
+                        android:id="@+id/spinner_month"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:background="@mipmap/account_bg1"
+                        android:padding="10dp"
+                        android:textColor="@color/textcolor"
+                        android:textSize="@dimen/edittextsize" />
+
+                    <Spinner
+                        android:id="@+id/spinner_year"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_weight="1"
+                        android:background="@mipmap/account_bg1"
+                        android:padding="10dp"
+                        android:textColor="@color/textcolor"
+                        android:textSize="@dimen/edittextsize" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="CVV:"
+                    android:textColor="@color/textcolor"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/et_cardcvvnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@mipmap/text_filed"
+                    android:drawablePadding="10dp"
+                    android:inputType="numberPassword"
+                    android:maxLength="3"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/textcolor"
+                    android:textColorHint="@color/textcolor" />
+
+
+                <Button
+                    android:id="@+id/btnsave_cardinfo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:background="@mipmap/button2"
+                    android:padding="10dp"
+                    android:text="SAVE PAYMENT METHOD"
+                    android:textColor="@color/textcolor"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+

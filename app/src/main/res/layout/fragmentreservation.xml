@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundtwo"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="-48dp"
+            android:paddingStart="-48dp"
+            android:src="@mipmap/logo" />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/White"
+        android:textStyle="normal"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:text="Reservation"/>
+    <TextView
+        android:id="@+id/txt_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/button2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="Date"
+        android:padding="10dp"
+        android:textColor="@color/textcolor"
+        android:textColorHint="@color/textcolor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txt_timepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@mipmap/button2"
+        android:gravity="center"
+        android:hint="Time"
+        android:padding="10dp"
+        android:textColor="@color/textcolor"
+        android:textColorHint="@color/textcolor"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btnsave_reservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@mipmap/smallbutton"
+        android:padding="10dp"
+        android:text="SAVE "
+        android:textColor="@color/textcolor"
+        android:textSize="15dp" />
+
+
+</LinearLayout>

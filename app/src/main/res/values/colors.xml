@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed1c25</color>
+    <color name="colorPrimaryDark">#ab030a</color>
+    <color name="colorAccent">#ab030a</color>
+
+    <color name="actionMenuTextColor">#ac1414</color>
+    <color name="btntextcolor">#ac1414</color>
+    <color name="White">#FFFFFF</color>
+    <color name="textcolor">#d9d9d9</color>
+    <color name="dialog_background_color">#00000000</color>
+
+    <color name="grey">#FF909090</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="dialog_bg">#343434</color>
+    <color name="dialog_line">#252525</color>
+
+    <color name="yello_star">#ffd000</color>
+    <color name="status_sheduled">#00A501</color>
+    <color name="graycolor">#555555</color>
+    <color name="colorRed">#FF0000</color>
+</resources>

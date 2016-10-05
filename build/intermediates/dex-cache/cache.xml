@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.0\7ff0e000d1e27e356567f56c92af3b8ab912636f\picasso-2.5.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.0_e8804f3ae279d7b3bf74a1ba2cbd391ced7fdf61\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8c0fc9b1ea0bac0cb31d60c8b1bf2feb0518e3a9">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.0.2_d91420d6c3ae1dc22a06c54e68c5369573389405\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.0.2_2adf630a31b0931e930a890fda55311d1c7bbc45\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-1.3.0_db88db4dba5cefc7123984ad9dd61b6a4d0a34ad\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cd4c7c54e15d9ccbc448384fa2c4684d69ca73f0">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.0.2_4fbb4e9fd550961c6e49043ef474db04e29552d3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_db0dec742e3d5a0419db0aa864b5acabeb65e3f4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\org.sufficientlysecure\html-textview\1.8\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="80a6ae99286d3ef1cd2aaf5f6472854dfe1054f7">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.sufficientlysecure-html-textview-1.8_f7731afd48485a8a46536aef0112f0e18d7a2f1b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_d3adb54d3613f556f2b613114ebe89eed4af03e7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-1.9.0_23597598753ae661a623dbdc1112f8563d01f956\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c96952c162c9f6076f44c5939982cb35491442ea">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.0.2_0c99ebb88bfd5ce45dfa5a5b6020d58e33c97db9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-2.0.1_52e612ec12b555b228fa295e88f1d72d98d41e19\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_550ef86390d65ce4ce2afd9aa74cdbfe8c8527a3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.paypal.android.sdk\data-collector\2.3.9\71c2fb7b3e34c9370aed0b4cf1d24c84bc155094\data-collector-2.3.9.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="71c2fb7b3e34c9370aed0b4cf1d24c84bc155094">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\data-collector-2.3.9_be63ac7461351d45cb41109adf63f77227dd7313\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\junit-4.12_c7c01002b51ed3c244f22d600165ec961bbebaf2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.0.2_c577aee07e0feebf791656b370a593741ef8bc96\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="143813b18381b28de1e04aae1d92fcb374a0add9">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.0.2_0d09a3af725dc8fe101a8357330589cfb57cd1c7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_7b56784b7191f9deccbacfd7a439468bfcbdb4e8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_93d15ab651bb34d8e0ace70673e32c5169185136\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_801d9c49cfeef21770b10f82601b3fb9d1d237b5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="829c6e46cb221c2102801221c648b77113743e81">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.0.2_3b172507214ea83391a8175d93cf017a493dcb55\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b8e0372ca6dc89ac4fe22b76eeea4f68ece435b8">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.0.2_abd21de31e96a6db11a22b6f22b6560e88cf936c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.4-beta1\2f1576f329759833d3ca773bf1e6cd50ec724e11\leakcanary-analyzer-1.4-beta1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2f1576f329759833d3ca773bf1e6cd50ec724e11">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\leakcanary-analyzer-1.4-beta1_99c6411ebdfa94c6010516be9ba2ef88abf245eb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.github.tony19\apktool-lib\1.4.4-3\1d0125bf578cb30dd192496db56c2d937495248a\apktool-lib-1.4.4-3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1d0125bf578cb30dd192496db56c2d937495248a">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\apktool-lib-1.4.4-3_ea23250fed2f59255af3534e7666923c804b2961\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="53f10fcd322a3931495d6ca2078a81f4957cdbce">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.0.2_7aaf934bedf8aec26dcbb22bd0aa4cf2936ab58b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1024abaf9f3bc8ab7928e17b357c7f8483e1b97c">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b6b8410d1251b7846b7fd318526426d3fd7d1f62\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_188db264dea7e0d24afd1ad9d4c706b0d661bfe7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.0.2_90b0222787bf402e3b92dbf037d87939a54bd811\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.0.2_e905d644531011b1addbf6fb7c432a34ef956bd7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cf16220db9128d91a215aedc739584181d5ca6a4">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.0.2_74b1026b7f3ff2d413ea937b9ad5c3c2b25921c6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho\1.3.1\2c4076b466a0eb4d6ddf5721edd35cd1adc1f317\stetho-1.3.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\stetho-1.3.1_2078236269d4bc169ce96de6ba849c9bc3dc894f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="28bc7007cc5fb935b0737a42f05b8286936228b0">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.card-android-sdk-5.3.4_cf9ebf78af19a9d60474001d214a56863a7d0a03\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_fe332a00131f8c11fdf225c55770b16f2e04c008\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.googlecode.libphonenumber\libphonenumber\7.2.2\b6975e439e0b44984098d1e5eb9f422ce1431ecb\libphonenumber-7.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b6975e439e0b44984098d1e5eb9f422ce1431ecb">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\libphonenumber-7.2.2_7449a14aca12659dd787f5b446237a6676c19835\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.braintreepayments.api\drop-in\2.3.8\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="bc5fc7133dda5289ad7922cf89828a4dbaf0246d">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.braintreepayments.api-drop-in-2.3.8_dea0fe399ed64cff2ff74f14f0d778204a650ca1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_80ad1dc1cd97846794828b10cfedf04ad49aba61\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.0.2_33afef8e28388269349a0500c49f7c762ac58dc2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="bc156efaaee99f1ef6bf471347373a4cbb28e2a1">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.0.2_cb2ffdc79ca616314834a1435690ef4cc2ffab4f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6ff48ef26bc539c78af4aa061cb9bad6abcbf5e8">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.0.2_00123314d1b141fe3f78fb77791f87e4daff247c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.0.2_97ace921766c6ed0f08b7dfaf8c2dde5d013d8e1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d900f2a1ff098cac8befe6c023d723e9afb154be">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.0.2_caa36e17abeeee29e7c63a068f6837d655d734a2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.8.2\d27c24204c5e507b16fec01006b3d0f1ec42aed4\joda-time-2.8.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d27c24204c5e507b16fec01006b3d0f1ec42aed4">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\joda-time-2.8.2_c7d467201c4981a4801c37fab35ff54b6502eed8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.0.2_169b0d1cf6dea799825276ed7f51af0ef7dd482a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.braintreepayments.api\core\2.3.9\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a67d7231d45b82cf0e5036d2afbf4095d85bcf1f">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.braintreepayments.api-core-2.3.9_8b9a7f055c1c146ddc791ece31777866384e3440\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_011eb53625a1dc27bcf347f0652c3af216c480a1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.github.tony19\logback-android-core\1.1.1-3\aea03aa7edb044688e6f15b94b987d9960133dae\logback-android-core-1.1.1-3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="aea03aa7edb044688e6f15b94b987d9960133dae">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\logback-android-core-1.1.1-3_e53da8045f39e4314252b6e2080f556d6a4daa1f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.paypal.android.sdk\paypal-one-touch\2.3.9\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ba62f08030dce203528fb9a0aba9b79953e0d80b">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.paypal.android.sdk-paypal-one-touch-2.3.9_f399029808c252f9079f26bc391eac5ac2a84f08\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.0.2_73a21b2556bcd64e69c03fbfab74a6c10e25ebbd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.1.1_28c3e6e0d445b34d6461ba3f7cae7049bac6ab5b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.0.2_44a503de2e5d2bfa627f6cc6bb9b5299c06c06c3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2ab5be19bbd34bae74662ea6b2d4451314d92d97">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.0.2_24570851961ba950aa7cb51dd14da975a197ab86\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="604ecf403feb0084dc6d0c12f1677a490cf45e4c">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.0.2_2b1bc7a992267d56b4551ef5df6d74551d4436d9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="922c24fbfc4247947fcfaf2b95f295a16a8c3d17">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.0.2_1a4ba9f5f381b1ec6b928e9bd9725ac00e8e4917\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fe5b47e764869f1076cb9cfe12801ed2ef4e9117">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.0.2_018a318089e9f39cf320abb724e78688feac5ee0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="060a7157438a0b1b0706b99c430fb3ecbc5a79a4">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.0.2_435628d9aa17a448570bb2923d18b29402ddc8f3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_56dace5059fe3522caecca446b8f4ad69bb67767\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.lukekorth\mailable_log\0.1.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="bf3c6f57718ca1ab73dc651bc400ea33a40d0298">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.lukekorth-mailable_log-0.1.3_76659f46a0ba45359fbf69ed293a3ac8e6ecdae2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\commons-cli\commons-cli\1.2\2bf96b7aa8b611c177d329452af1dc933e14501c\commons-cli-1.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-cli-1.2_fb5b9c2962bec9bffd5e8f7bcc95c76db8f2df83\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\libs\sinch-android-rtc-3.9.8.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6b1e4ab498c73872ea751de3d0e493f7ca8b83e5">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\2\sinch-android-rtc-3.9.8_1db953c7783c2c220783620f5753e6e73d852451\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="89ebdc13419603ef36e4ee38774bcb00687b4d4f">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.squareup.leakcanary-leakcanary-android-1.4-beta1_6275755d13cead4ae5f2782ea4f32ba1d76b3fd7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f4fb6981392ca7680d02fd57d26d6124c141d9d9">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.0.2_8eb85f28fe35ad3209ac7e6b29e304d238c72d5f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e6970f0554f9508c041f1f6960af15cc888c9f35">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.0.2_69bb7d1c57c9652dc3f08c36e4d387fdcdc92bc3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="20e1a0f0de6276a5f36062b655f8b20f8cc00cc4">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.0.2_5b3e703a286c7e32c6fa05dd64731779907235c2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="92a1d5f71b0fc8938f1d3f2e6ef984b52b894b4d">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.0.2_d90e2244aa4953bd367a0f9fe01a2ad6c779be23\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b6af089f583d547bcffc0689b2e80bc7aaa54b15">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.0.2_cfa0a2747a6e4c91e68998f580703816592a8f8b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_3141f1055453c3f63bb1b460b617f76b79566073\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.0.2_4e7c71854a20be0570f4d9284e6ddffd2eacbd4b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.braintreepayments\card-form\2.3.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8054ec1098052c14c7755bffce8da7b1da78ddf7">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.braintreepayments-card-form-2.3.2_9b78c0ebb4555746192067b06c8d544ec8fbb0b8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.9\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d8ed5cbbb600ced58637292c27ec4fe8a33f0983">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.braintreepayments.api-braintree-2.3.9_68bbebdfdf0d9283cf0eea3242baf5df21c3ed1a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_94aee228cea25335849b8987f99b57478b833362\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="da47b5635353ca55aabc9e1ad6aaaa5626fedcb4">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.paypal.sdk-paypal-android-sdk-2.14.2_fba9e678e155b31c8ad2fd6b0902774d48bad827\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="10037e89eaa44fd2d2bb70432e3acba370a4d8be">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_97e7c3244116a5949d623f392a92fc33556c81a6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-core-1.3_083be3ae0ef7f6226c45fe44384708153b8fdb33\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.squareup.haha\haha\2.0.2\fd65b84d12d6adc77ec0e4fcaca623fc391d8679\haha-2.0.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fd65b84d12d6adc77ec0e4fcaca623fc391d8679">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\haha-2.0.2_58405ed58be5ebd98dce8b6b26df6b6b79b173be\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_bd016b6520806dd4527723976baf473d6ebd9631\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_6d5e6757cee8b9b279273de5736e48aaa6b6ae16\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.hudomju\swipe-to-dismiss-undo\1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c934830482473cb298c02f9eb55da67548b9db40">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.hudomju-swipe-to-dismiss-undo-1.0_ca4ae964cc64902a2768b89cac4cd8a2e2c87206\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.github.tony19\logback-android-classic\1.1.1-3\f36abbae255635de1ff54ea0ea1452aca4ee921e\logback-android-classic-1.1.1-3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f36abbae255635de1ff54ea0ea1452aca4ee921e">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\logback-android-classic-1.1.1-3_7dceceee0afb8f44a9af8ad817928da533c630b6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e11da70cff6a544a45cdc21f419802d9bb9043ac">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.0.2_35906073d1b1805b43b72536a7682dcc3dea4c53\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_b6970c93e82bbe6baa04f3c400e1409070772c90\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9ea4cdaafa29ec4651d6e4715788d3fcaa7b913">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.0.2_d40d242db1751531b7d8927a8f68fd5404b8a9e8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="764d32faf85bc6f7bd2cdcb3a70a482c1884fdd2">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.0.2_3ec2615a3118ccdd89fcaa6d9694360935c024f0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0c835e9f3875cf245877c9b17d1c69bc98f16057">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.0.2_1c40f0344ab4059aaa97c75a86f7b6f8d6a58387\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6c58c14d15602fea2c50138c73bb107e8b832b62">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.0.2_c553f400f872d5cfe438f1c03780d8991d0fcdbe\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.4-beta1\63bb780e2bdb09c99fcd9793ec129bbc0a8a1181\leakcanary-watcher-1.4-beta1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="63bb780e2bdb09c99fcd9793ec129bbc0a8a1181">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\leakcanary-watcher-1.4-beta1_e6741f2f5edd6b728530aa409126faf120e71f01\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a45bc1ed812137b21dddd1cedaa3712b308f0b3f">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.0.2_f5ba80a511666c20ff96dd8f03a03328a3299905\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f399a2fde7888450cadcaec4974bfd169d8cce43">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.0.2_b6f89d32d7fd1a0b2255add2644cf202bd9d7580\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.0.2_424bcbd937f2ef002b2d53d08fd71c8be70301f2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.0.2_5ca79580ed06ac0246adb2a2f1be38c58a12feec\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.6\562424e36df3d2327e8e9301a76027fca17d54ea\slf4j-api-1.7.6.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="562424e36df3d2327e8e9301a76027fca17d54ea">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-api-1.7.6_b081599a20a854ce662f14e85f8e9a58d9866899\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.0.2_5f184163f49d2d29ede7b7a1f938f79de2320fe1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-async-http-1.4.9_7f8ac4fb88e876f64cc5ed35d6e71a9a0e6f12ef\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a498fab72f8663c26fbf3d4496eb6b673b17bcae">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.0.2_efa79d50da5fe6c9cfed863965220276745f35e3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7e52b440a26498c56b4f263e215223b5451c955e">
+        <dex dex="C:\Users\ranjeet\AndroidStudioProjects\DMV\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.0.2_1166553f8886f607c84c27e477d3fcb0b36d33af\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,100 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+      //  applicationId "com.example.narendra.dmv"
+        applicationId "com.alivenet.dmvtaxi"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+    dexOptions{
+       // incremental true
+        javaMaxHeapSize "4g"
+        //preDexLibraries = false
+
+
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+        encoding = 'UTF-8'
+    }
+    //Maven SetUp
+    packagingOptions {
+        exclude 'META-INF/maven/com.google.guava/guava/pom.properties'
+        exclude 'META-INF/maven/com.google.guava/guava/pom.xml'
+    }
+    repositories {
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.hudomju:swipe-to-dismiss-undo:1.0'
+    compile 'com.google.android.gms:play-services:9.0.2'
+    compile 'com.googlecode.libphonenumber:libphonenumber:7.2.2'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.squareup.picasso:picasso:2.5.0'
+    compile 'com.google.code.gson:gson:2.2.+'
+    compile 'com.paypal.sdk:paypal-android-sdk:2.14.2'
+    compile 'com.braintreepayments.api:braintree:2.+'
+    // compile 'com.braintreepayments.api:braintree:2.+'
+    compile 'com.braintreepayments.api:drop-in:2.+'
+    compile files('libs/swipe-to-dismiss-undo-1.0-sources.jar')
+    compile 'org.sufficientlysecure:html-textview:1.8'
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'de.hdodenhof:circleimageview:1.3.0'
+    //Maven SetUp
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.google.android.gms:play-services-wallet:9.0.2'
+    compile 'com.lukekorth:mailable_log:0.1.3'
+    compile 'com.braintreepayments:card-form:2.3.1'
+    debugCompile 'com.facebook.stetho:stetho:1.3.1'
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta1'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'joda-time:joda-time:2.8.2'
+    compile 'junit:junit:4.12'
+    compile files('libs/sinch-android-rtc-3.9.8.jar')
+}
+//apply plugin: 'com.google.gms.google-services'

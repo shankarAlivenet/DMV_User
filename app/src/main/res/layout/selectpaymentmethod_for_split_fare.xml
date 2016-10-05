@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/selectpayment"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:paddingBottom="-50dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:src="@mipmap/alert_image" />
+
+
+            <TextView
+                android:id="@+id/textSplash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Select Payment Method "
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="58dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <RadioButton
+
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/paypal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.13"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Pay Pal"
+                    android:textSize="25dp" />
+
+
+                <RadioButton
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/credit_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.13"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Creadit Card"
+                    android:textSize="25dp" />
+
+                <RadioButton
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/vip_payment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.13"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="VIP"
+                    android:textSize="25dp" />
+            </RadioGroup>
+
+
+
+
+           <!-- <RadioGroup
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:layout_marginTop="15dp"
+                android:id="@+id/myRadioGroup"
+                android:checkedButton="@+id/sound"
+                android:layout_weight="wrap_content">
+
+                <RadioButton
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/paypal"
+                    android:text="Paypal"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:layout_marginTop="5dp"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/credit_card"
+                    android:text="Cradit Card " />
+
+                <RadioButton
+                    android:layout_width="150dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vip_payment"
+                    android:text="VIP Payment" />
+
+            </RadioGroup>-->
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_margin="20dp"
+                    android:id="@+id/btn_accept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ok_btn"
+                    android:gravity="center"
+                    android:text="Submit"
+
+
+                    />
+
+                 <Button
+                        android:id="@+id/btn_decline"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@mipmap/ok_btn"
+                        android:text="cancel"
+                        android:textColor="@color/bt_black"
+                        android:textSize="15dp" />
+    -->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- <ImageView
+             android:id="@+id/imageView_close"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="top|right"
+             android:clickable="true"
+             android:src="@mipmap/close_icon" />-->
+    </FrameLayout>
+
+</LinearLayout>
+
